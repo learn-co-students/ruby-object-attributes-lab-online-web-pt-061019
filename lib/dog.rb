@@ -4,15 +4,15 @@ class Dog
         @name
     end
 
-    def name=(name) #setter //didn't take "name"
+    def name=(name) #setter
         @name = name
     end
 
-    def breed
+    def breed #getter
         @breed
     end
 
-    def breed=(breed)
+    def breed=(breed) #setter
         @breed = breed
     end
 end
